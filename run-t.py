@@ -68,7 +68,7 @@ def run_bot(data_account, recover=1):
 
         nama_modif = kw.replace(" ", "-")
         gmail = f"{nama_modif}-apk-modss-{random_string(6)}@gmail.com"
-        slug = f"mod-apk-{random_string(6)}"
+        slug = f"{kw}-mod-apk-{random_string(6)}"
         judul = f"*!DOWNLOAD!* {kw} MOD Premium APK Download Latest Version Free for Android"
         link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=4D"
 
